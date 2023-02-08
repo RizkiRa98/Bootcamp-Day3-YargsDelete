@@ -86,7 +86,7 @@ const updateData = (oldName, name, email, mobile) =>{
     return false;
   }
   oldContact[data].name = name;
-  //cek validasi email
+  //cek validasi email jika ada yang sama
   if(email){
     if(!validator.isEmail(email)){
       console.log('Format Email Salah!');

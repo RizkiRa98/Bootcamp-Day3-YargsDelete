@@ -93,6 +93,7 @@ handler(){
       type: 'string',
     },
   },
+  //panggil fungsi update
   handler(argv){
     fungsiPertanyaan.updateData(argv.oldName, argv.name, argv.email, argv.mobile);
   },
