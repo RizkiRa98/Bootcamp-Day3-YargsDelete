@@ -67,6 +67,7 @@ const deleteData = (name) =>{
     exit();
   }else{
     console.log('Kontak tidak ada');
+    return false;
   }
 }
 
